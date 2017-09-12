@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:xx="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tian.customviewdemo.MainActivity">
+
+    <com.example.tian.customviewdemo.Text
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xx:text_higet="500dp"
+        xx:text_size="25dp"
+        xx:text_string="这是一个文本"
+        xx:text_color="@color/colorPrimary"
+        xx:text_width="300dp" />
+</LinearLayout>
